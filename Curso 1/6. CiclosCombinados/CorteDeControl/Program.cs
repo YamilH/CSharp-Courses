@@ -9,7 +9,7 @@ namespace CorteDeControl
             // CORTE DE CONTROL
 
             //legajo, edad, sueldo, codigo de equipo(númerico)
-            int legajo, edad, codigoEquipo;
+            int legajo, edad, codigoEquipo, equipoActual;
             float sueldo;
             
             Console.WriteLine("Ingrese el legajo");
@@ -21,9 +21,10 @@ namespace CorteDeControl
             Console.WriteLine("Ingrese el código de equipo");
             codigoEquipo = int.Parse(Console.ReadLine());
 
-            while (true)
+            while (sueldo > 0)
             {
-                while (true)
+                equipoActual = codigoEquipo;
+                while (codigoEquipo == equipoActual)
                 {
                 Console.WriteLine("Ingrese el legajo");
                 legajo = int.Parse(Console.ReadLine());
