@@ -1,0 +1,16 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.deps.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.runtimeconfig.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.runtimeconfig.dev.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\ref\While.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\bin\Debug\net5.0\While.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.AssemblyInfoInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.AssemblyInfo.cs
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\ref\While.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\5. Ciclos\While\obj\Debug\net5.0\While.genruntimeconfig.cache

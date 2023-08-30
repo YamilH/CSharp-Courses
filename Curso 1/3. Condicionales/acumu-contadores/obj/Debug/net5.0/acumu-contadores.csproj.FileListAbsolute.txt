@@ -1,0 +1,16 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.deps.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.runtimeconfig.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.runtimeconfig.dev.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\ref\acumu-contadores.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\bin\Debug\net5.0\acumu-contadores.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.AssemblyInfoInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.AssemblyInfo.cs
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\ref\acumu-contadores.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\3. Condicionales\acumu-contadores\obj\Debug\net5.0\acumu-contadores.genruntimeconfig.cache

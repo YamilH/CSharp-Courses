@@ -1,0 +1,16 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.deps.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.runtimeconfig.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.runtimeconfig.dev.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\ref\AND-OR.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\bin\Debug\net5.0\AND-OR.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.AssemblyInfoInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.AssemblyInfo.cs
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\ref\AND-OR.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\4. Condicionales AND OR\AND-OR\obj\Debug\net5.0\AND-OR.genruntimeconfig.cache
