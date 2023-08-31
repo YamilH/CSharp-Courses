@@ -1,0 +1,16 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.deps.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.runtimeconfig.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.runtimeconfig.dev.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\ref\CadenaDeCaracteres.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\bin\Debug\net5.0\CadenaDeCaracteres.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.AssemblyInfoInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.AssemblyInfo.cs
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\ref\CadenaDeCaracteres.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\CadenaDeCaracteres\obj\Debug\net5.0\CadenaDeCaracteres.genruntimeconfig.cache

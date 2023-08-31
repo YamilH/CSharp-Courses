@@ -1,0 +1,16 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.deps.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.runtimeconfig.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.runtimeconfig.dev.json
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\ref\Ejercicio-7-1.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\bin\Debug\net5.0\Ejercicio-7-1.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.AssemblyInfoInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.AssemblyInfo.cs
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\ref\Ejercicio-7-1.dll
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 1\7. Vectores\Ejercicio-7-1\obj\Debug\net5.0\Ejercicio-7-1.genruntimeconfig.cache
