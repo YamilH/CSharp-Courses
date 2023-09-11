@@ -12,13 +12,22 @@ namespace ejemplo1
         {
             //Clases, Objetos y Propiedades. Encapsulamiento.
        
-            Persona p1 = new Persona();
+            Persona p1 = new Persona("Pepe");
             p1.setEdad(20);
 
+            Console.WriteLine(p1.saludar());
             Console.WriteLine("la edad de la persona es: " + p1.getEdad());
 
-            Botella b1 = new Botella();
-            b1.Capacidad = 200;
+            Botella b1 = new Botella("Rojo", "Plástico");
+     //       b1.Capacidad = 200;
+
+     //       Botella b2 = new Botella();
+
+            Console.WriteLine("Capacidad Botella: " + b1.Capacidad);
+            Console.WriteLine("La cantidad actual es " + b1.CantidadActual);
+            b1.recargar();
+            Console.WriteLine("Luego de recargar, La cantidad actual es " + b1.CantidadActual);
+
 
             int algo = b1.Capacidad;
 

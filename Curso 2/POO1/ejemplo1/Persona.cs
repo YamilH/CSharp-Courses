@@ -16,7 +16,12 @@ namespace ejemplo1
         private float sueldo;
         private string nombre;
 
-        //con METODOS
+        public Persona (string nombre)
+        {
+            this.nombre = nombre;
+        }
+
+        //con METODOS. getter setter
 
         public void setEdad(int e)
         {
@@ -26,6 +31,14 @@ namespace ejemplo1
         public int getEdad()
         {
             return edad; 
+        }
+
+
+
+        //Métodos, comportamiento de objetos de persona
+        public string saludar()
+        {
+            return "Hola soy..." + nombre;
         }
 
         
