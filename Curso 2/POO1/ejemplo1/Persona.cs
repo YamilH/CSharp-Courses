@@ -41,6 +41,10 @@ namespace ejemplo1
             return "Hola soy..." + nombre;
         }
 
+        public string saludar(string personaje)
+        {
+            return "Hola " + personaje + ", soy..." + nombre;
+        }
         
     
     

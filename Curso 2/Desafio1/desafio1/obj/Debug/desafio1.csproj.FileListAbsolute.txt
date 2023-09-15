@@ -1,0 +1,7 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\bin\Debug\desafio1.exe.config
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\bin\Debug\desafio1.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\bin\Debug\desafio1.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\obj\Debug\desafio1.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\obj\Debug\desafio1.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\obj\Debug\desafio1.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\Desafio1\desafio1\obj\Debug\desafio1.pdb

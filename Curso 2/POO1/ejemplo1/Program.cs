@@ -16,6 +16,7 @@ namespace ejemplo1
             p1.setEdad(20);
 
             Console.WriteLine(p1.saludar());
+            Console.WriteLine(p1.saludar("MAXI"));
             Console.WriteLine("la edad de la persona es: " + p1.getEdad());
 
             Botella b1 = new Botella("Rojo", "Plástico");

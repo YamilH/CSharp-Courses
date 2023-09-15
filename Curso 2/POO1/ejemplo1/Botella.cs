@@ -66,5 +66,12 @@ namespace ejemplo1
             return 50;
         }
 
+        // metodo sobrecargado
+        public float recargar(int cantidad)
+        {
+            cantidadActual += cantidad;
+            return cantidad * 50 / 100;
+        }
+
     }
 }
