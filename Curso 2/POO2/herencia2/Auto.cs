@@ -8,5 +8,21 @@ namespace herencia2
 {
     internal class Auto : Vehiculo
     {
+
+        public Auto() 
+        {
+            Chasis = new Chasis();
+        }
+        public int año { get; set; }
+        public string Modelo { get; set; }
+        public string Color { get; set; }
+        
+
+        //Composición
+        public Chasis Chasis { get; }  
+
+
+        //Agregación
+        public Motor Motor {  get; set; }
     }
 }

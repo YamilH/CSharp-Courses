@@ -1,0 +1,7 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\bin\Debug\herencia.exe.config
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\bin\Debug\herencia.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\bin\Debug\herencia.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\obj\Debug\herencia.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\obj\Debug\herencia.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\obj\Debug\herencia.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 2\POO2\herencia\obj\Debug\herencia.pdb

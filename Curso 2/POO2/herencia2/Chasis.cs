@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace herencia2
 {
-    internal class Vehiculo
+    internal class Chasis
     {
-        //Motor
-        public string Motor {  get; set; }
-        public string Color { get; set; }
     }
 }
