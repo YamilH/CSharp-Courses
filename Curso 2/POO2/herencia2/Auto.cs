@@ -18,11 +18,11 @@ namespace herencia2
         public string Color { get; set; }
         
 
-        //Composición
+        //Composición. Tiene
         public Chasis Chasis { get; }  
 
 
-        //Agregación
+        //Agregación. Tiene
         public Motor Motor {  get; set; }
     }
 }
