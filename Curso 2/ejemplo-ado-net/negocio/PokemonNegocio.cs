@@ -5,10 +5,11 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using dominio;
 
-namespace winform_app
+namespace negocio
 {
-    internal class PokemonNegocio
+    public class PokemonNegocio
     {
         //metodos de acceso a datos a los pokemon
         //metodos, se harian miniscula
@@ -53,6 +54,32 @@ namespace winform_app
             {
                 throw ex;
             }
+        }
+
+
+        public void agregar(Pokemon nuevo)
+        {
+            //esta es la logica para conectarse a la base de datos
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("Insert into POKEMONS (Numero, Nombre, Descripcion, Activo) values(" + nuevo.Numero + ", '" + nuevo.Nombre + "', '" + nuevo.Descripcion +"', 1)");
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void modificar(Pokemon modificar)
+        {
+
         }
     }
 }
