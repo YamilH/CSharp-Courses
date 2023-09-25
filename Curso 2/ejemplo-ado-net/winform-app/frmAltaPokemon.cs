@@ -14,9 +14,16 @@ namespace winform_app
 {
     public partial class frmAltaPokemon : Form
     {
+        private Pokemon pokemon = null;
         public frmAltaPokemon()
         {
             InitializeComponent();
+        }
+        public frmAltaPokemon(Pokemon pokemon)
+        {
+            InitializeComponent();
+            this.pokemon = pokemon;
+            Text = "Modificar Pokemon";
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -27,23 +34,35 @@ namespace winform_app
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             //declaraciones dominio
-            Pokemon poke = new Pokemon();
+            //Pokemon poke = new Pokemon();
             //declaracion negocio
             PokemonNegocio negocio = new PokemonNegocio();
 
             try
             {
+                if(pokemon == null)
+                    pokemon = new Pokemon();
                 //carga del objeto
-                poke.Numero = int.Parse(txtNumero.Text);
-                poke.Nombre = txtNombre.Text;
-                poke.Descripcion = txtDescripcion.Text;
-                poke.UrlImagen = txtUrlImagen.Text;
-                poke.Tipo = (Elemento)cbTipo.SelectedItem;
-                poke.Debilidad = (Elemento)cbDebilidad.SelectedItem;
+                pokemon.Numero = int.Parse(txtNumero.Text);
+                pokemon.Nombre = txtNombre.Text;
+                pokemon.Descripcion = txtDescripcion.Text;
+                pokemon.UrlImagen = txtUrlImagen.Text;
+                pokemon.Tipo = (Elemento)cbTipo.SelectedItem;
+                pokemon.Debilidad = (Elemento)cbDebilidad.SelectedItem;
 
                 //mandarlo a la base de datos
-                negocio.agregar(poke);
+
+                if(pokemon.Id != 0)
+                {
+                negocio.modificar(pokemon);
+                MessageBox.Show("Modificado exitosamente");
+                }
+                else
+                {
+                negocio.agregar(pokemon);
                 MessageBox.Show("Agregado exitosamente");
+                }
+
                 Close();
             }
             catch (Exception ex)
@@ -60,8 +79,22 @@ namespace winform_app
             {
                 //para cargar las lista desplegables
                 cbTipo.DataSource = elementoNegocio.listar();
+                cbTipo.ValueMember = "Id";
+                cbTipo.DisplayMember = "Descripcion";
                 cbDebilidad.DataSource = elementoNegocio.listar();
+                cbDebilidad.ValueMember = "Id";
+                cbDebilidad.DisplayMember = "Descripcion";
 
+                if (pokemon != null)
+                {
+                    txtNumero.Text = pokemon.Numero.ToString();
+                    txtNombre.Text = pokemon.Nombre;
+                    txtDescripcion.Text = pokemon.Descripcion;
+                    cargarImagen(pokemon.UrlImagen);
+                    txtUrlImagen.Text = pokemon.UrlImagen;
+                    cbTipo.SelectedValue = pokemon.Tipo.Id;
+                    cbDebilidad.SelectedValue = pokemon.Debilidad.Id;
+                }
             }
             catch (Exception ex)
             {
