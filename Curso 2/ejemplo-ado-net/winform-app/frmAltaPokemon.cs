@@ -37,6 +37,7 @@ namespace winform_app
                 poke.Numero = int.Parse(txtNumero.Text);
                 poke.Nombre = txtNombre.Text;
                 poke.Descripcion = txtDescripcion.Text;
+                poke.UrlImagen = txtUrlImagen.Text;
                 poke.Tipo = (Elemento)cbTipo.SelectedItem;
                 poke.Debilidad = (Elemento)cbDebilidad.SelectedItem;
 
@@ -67,6 +68,24 @@ namespace winform_app
 
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbPokemon.Load(imagen);
+            }
+            catch (Exception ex)
+            {
+
+                pbPokemon.Load("https://thinkfirstcommunication.com/wp-content/uploads/2022/05/placeholder-1-1.png");
+            }
+        }
+
+        private void txtUrlImagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txtUrlImagen.Text);
         }
     }
 }

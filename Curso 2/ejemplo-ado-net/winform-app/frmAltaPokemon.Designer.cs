@@ -40,6 +40,10 @@
             this.cbTipo = new System.Windows.Forms.ComboBox();
             this.lblDebilidad = new System.Windows.Forms.Label();
             this.cbDebilidad = new System.Windows.Forms.ComboBox();
+            this.lblUrlImagen = new System.Windows.Forms.Label();
+            this.txtUrlImagen = new System.Windows.Forms.TextBox();
+            this.pbPokemon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPokemon)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNumero
@@ -56,7 +60,7 @@
             this.txtNumero.Location = new System.Drawing.Point(128, 49);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(121, 20);
-            this.txtNumero.TabIndex = 1;
+            this.txtNumero.TabIndex = 0;
             // 
             // lblNombre
             // 
@@ -72,7 +76,7 @@
             this.txtNombre.Location = new System.Drawing.Point(128, 75);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(121, 20);
-            this.txtNombre.TabIndex = 3;
+            this.txtNombre.TabIndex = 1;
             // 
             // lblDescripcion
             // 
@@ -88,11 +92,11 @@
             this.txtDescripcion.Location = new System.Drawing.Point(128, 101);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(121, 20);
-            this.txtDescripcion.TabIndex = 5;
+            this.txtDescripcion.TabIndex = 2;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(39, 233);
+            this.btnAceptar.Location = new System.Drawing.Point(39, 257);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 6;
@@ -102,7 +106,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(172, 233);
+            this.btnCancelar.Location = new System.Drawing.Point(172, 257);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 7;
@@ -113,7 +117,7 @@
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
-            this.lblTipo.Location = new System.Drawing.Point(86, 130);
+            this.lblTipo.Location = new System.Drawing.Point(86, 173);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(28, 13);
             this.lblTipo.TabIndex = 8;
@@ -123,15 +127,15 @@
             // 
             this.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipo.FormattingEnabled = true;
-            this.cbTipo.Location = new System.Drawing.Point(128, 127);
+            this.cbTipo.Location = new System.Drawing.Point(128, 170);
             this.cbTipo.Name = "cbTipo";
             this.cbTipo.Size = new System.Drawing.Size(121, 21);
-            this.cbTipo.TabIndex = 9;
+            this.cbTipo.TabIndex = 4;
             // 
             // lblDebilidad
             // 
             this.lblDebilidad.AutoSize = true;
-            this.lblDebilidad.Location = new System.Drawing.Point(63, 157);
+            this.lblDebilidad.Location = new System.Drawing.Point(63, 200);
             this.lblDebilidad.Name = "lblDebilidad";
             this.lblDebilidad.Size = new System.Drawing.Size(51, 13);
             this.lblDebilidad.TabIndex = 10;
@@ -141,16 +145,45 @@
             // 
             this.cbDebilidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDebilidad.FormattingEnabled = true;
-            this.cbDebilidad.Location = new System.Drawing.Point(128, 154);
+            this.cbDebilidad.Location = new System.Drawing.Point(128, 197);
             this.cbDebilidad.Name = "cbDebilidad";
             this.cbDebilidad.Size = new System.Drawing.Size(121, 21);
-            this.cbDebilidad.TabIndex = 11;
+            this.cbDebilidad.TabIndex = 5;
+            // 
+            // lblUrlImagen
+            // 
+            this.lblUrlImagen.AutoSize = true;
+            this.lblUrlImagen.Location = new System.Drawing.Point(56, 130);
+            this.lblUrlImagen.Name = "lblUrlImagen";
+            this.lblUrlImagen.Size = new System.Drawing.Size(58, 13);
+            this.lblUrlImagen.TabIndex = 12;
+            this.lblUrlImagen.Text = "Url Imagen";
+            // 
+            // txtUrlImagen
+            // 
+            this.txtUrlImagen.Location = new System.Drawing.Point(128, 127);
+            this.txtUrlImagen.Name = "txtUrlImagen";
+            this.txtUrlImagen.Size = new System.Drawing.Size(121, 20);
+            this.txtUrlImagen.TabIndex = 3;
+            this.txtUrlImagen.Leave += new System.EventHandler(this.txtUrlImagen_Leave);
+            // 
+            // pbPokemon
+            // 
+            this.pbPokemon.Location = new System.Drawing.Point(292, 49);
+            this.pbPokemon.Name = "pbPokemon";
+            this.pbPokemon.Size = new System.Drawing.Size(205, 191);
+            this.pbPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPokemon.TabIndex = 14;
+            this.pbPokemon.TabStop = false;
             // 
             // frmAltaPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 382);
+            this.ClientSize = new System.Drawing.Size(584, 382);
+            this.Controls.Add(this.pbPokemon);
+            this.Controls.Add(this.txtUrlImagen);
+            this.Controls.Add(this.lblUrlImagen);
             this.Controls.Add(this.cbDebilidad);
             this.Controls.Add(this.lblDebilidad);
             this.Controls.Add(this.cbTipo);
@@ -167,6 +200,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nuevo Pokemon";
             this.Load += new System.EventHandler(this.frmAltaPokemon_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbPokemon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,5 +220,8 @@
         private System.Windows.Forms.ComboBox cbTipo;
         private System.Windows.Forms.Label lblDebilidad;
         private System.Windows.Forms.ComboBox cbDebilidad;
+        private System.Windows.Forms.Label lblUrlImagen;
+        private System.Windows.Forms.TextBox txtUrlImagen;
+        private System.Windows.Forms.PictureBox pbPokemon;
     }
 }
