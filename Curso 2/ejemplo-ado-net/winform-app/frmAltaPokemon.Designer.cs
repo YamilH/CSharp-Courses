@@ -43,6 +43,7 @@
             this.lblUrlImagen = new System.Windows.Forms.Label();
             this.txtUrlImagen = new System.Windows.Forms.TextBox();
             this.pbPokemon = new System.Windows.Forms.PictureBox();
+            this.btnAgregarImagen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbPokemon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,18 +170,29 @@
             // 
             // pbPokemon
             // 
-            this.pbPokemon.Location = new System.Drawing.Point(292, 49);
+            this.pbPokemon.Location = new System.Drawing.Point(323, 39);
             this.pbPokemon.Name = "pbPokemon";
             this.pbPokemon.Size = new System.Drawing.Size(205, 191);
             this.pbPokemon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPokemon.TabIndex = 14;
             this.pbPokemon.TabStop = false;
             // 
+            // btnAgregarImagen
+            // 
+            this.btnAgregarImagen.Location = new System.Drawing.Point(255, 127);
+            this.btnAgregarImagen.Name = "btnAgregarImagen";
+            this.btnAgregarImagen.Size = new System.Drawing.Size(25, 23);
+            this.btnAgregarImagen.TabIndex = 15;
+            this.btnAgregarImagen.Text = "+";
+            this.btnAgregarImagen.UseVisualStyleBackColor = true;
+            this.btnAgregarImagen.Click += new System.EventHandler(this.btnAgregarImagen_Click);
+            // 
             // frmAltaPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 382);
+            this.Controls.Add(this.btnAgregarImagen);
             this.Controls.Add(this.pbPokemon);
             this.Controls.Add(this.txtUrlImagen);
             this.Controls.Add(this.lblUrlImagen);
@@ -223,5 +235,6 @@
         private System.Windows.Forms.Label lblUrlImagen;
         private System.Windows.Forms.TextBox txtUrlImagen;
         private System.Windows.Forms.PictureBox pbPokemon;
+        private System.Windows.Forms.Button btnAgregarImagen;
     }
 }

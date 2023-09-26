@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using dominio;
 using negocio;
+using System.Configuration;
 
 namespace winform_app
 {
     public partial class frmAltaPokemon : Form
     {
         private Pokemon pokemon = null;
+        private OpenFileDialog archivo = null;
+
         public frmAltaPokemon()
         {
             InitializeComponent();
@@ -62,6 +66,10 @@ namespace winform_app
                 negocio.agregar(pokemon);
                 MessageBox.Show("Agregado exitosamente");
                 }
+
+                //guardo imagen si la levantó localmente:
+                if(archivo != null && !(txtUrlImagen.Text.Contains("HTTP")))
+                    File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
 
                 Close();
             }
@@ -119,6 +127,20 @@ namespace winform_app
         private void txtUrlImagen_Leave(object sender, EventArgs e)
         {
             cargarImagen(txtUrlImagen.Text);
+        }
+
+        private void btnAgregarImagen_Click(object sender, EventArgs e)
+        {
+            archivo = new OpenFileDialog();
+            archivo.Filter = "jpg|*.jpg | png|*.png";
+            if(archivo.ShowDialog() == DialogResult.OK)
+            {
+                txtUrlImagen.Text = archivo.FileName;
+                cargarImagen(archivo.FileName);
+
+                //guardado de imagen
+               // File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
+            }
         }
     }
 }
