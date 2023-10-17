@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="proyecto1.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="icon" href="Media/iconosuns.png" />
+    <title>Proyecto ASP.NET</title>
+        <link href="./Content/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="Default.aspx">
+                    <img src="/Media/iconosuns.png" alt="YamilH" width="32">
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="Default.aspx">Home</a>
+                    </li>
+ 
+               <%-- <li class="nav-item">
+                      <a class="nav-link" href="Default.aspx">Home</a>
+                    </li> --%>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Skills.aspx">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Projects.aspx">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Contact.aspx">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+
+           
+
+          <footer class="bg-dark text-center text-white fixed-bottom">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+
+                  <!-- Email -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="mailto:yamilhamui@gmail.com" role="button"
+                    ><i class="bi bi-envelope-at-fill"></i
+                  ></a>
+
+                  <!-- Linkedin -->
+                  <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/yamilhamui/" role="button"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+
+                  <!-- Github -->
+                  <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/YamilH" role="button"
+                    ><i class="bi bi-github"></i
+                  ></a>
+
+                  <!-- YamilH -->
+                  <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.yamilh.com.ar/" role="button"
+                    ><i class="bi bi-rocket-takeoff-fill"></i
+                  ></a>
+
+                </section>
+            </div>
+             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <h6>Thanks for coming by!</h6>
+                <h6>All Rights Reserved - 2023</h6>
+                <h6>Powered with 🤍 by me</h6>
+             </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
