@@ -1,0 +1,7 @@
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\bin\Debug\dominio.exe.config
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\bin\Debug\dominio.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\bin\Debug\dominio.pdb
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\obj\Debug\dominio.exe
+C:\Users\josea\Documents\visual studio\C# .NET\Curso 3\ejemplos-nivel3\dominio\obj\Debug\dominio.pdb
